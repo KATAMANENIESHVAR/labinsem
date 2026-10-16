@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Student Dashboard</h2>
+    <h3>My Profile</h3>
+    <p id="studentName"></p>
+    <p id="studentId"></p>
+    <h3>Academic Details</h3>
+    <p>Course: CSE</p>
+    <p>Semester: 3</p>
+    <p>Attendance: 85%</p>
+    <h3>My Marks</h3>
+    <p>Java: 85 / 100</p>
+    <p>Data Structures: 90 / 100</p>
+    <p>Mathematics: 80 / 100</p>
+    <h3>College Announcements</h3>
+    <ul id="announcementList"></ul>
+    <h3>Submit a Complaint</h3>
+    <form onsubmit="addComplaint(event)">
+        <input type="text" id="complaint" placeholder="Enter complaint" required><br><br>
+        <button type="submit">Submit Complaint</button>
+    </form>
+    <p id="result"></p>
+    <h3>My Complaints</h3>
+    <ul id="myComplaints"></ul>
+    <br><button onclick="logout()">Logout</button>
+    <script src="script.js"></script>
+</body>
+</html>

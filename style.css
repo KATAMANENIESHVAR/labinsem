@@ -1,0 +1,17 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: white;
+    margin: 40px;
+}
+h2 { color: darkblue; }
+input, select { padding: 8px; width: 220px; }
+button {
+    padding: 8px 15px;
+    background-color: lightblue;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+a { color: blue; }
+ul { display: inline-block; text-align: left; }
+li { margin: 8px; }

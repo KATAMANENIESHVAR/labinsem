@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Admin Dashboard</h2>
+    <h3>Registered Students</h3>
+    <ul id="studentList"></ul>
+    <h3>Student Complaints</h3>
+    <ul id="complaintList"></ul>
+    <h3>Post an Announcement</h3>
+    <form onsubmit="addAnnouncement(event)">
+        <input type="text" id="announcement" placeholder="Enter announcement" required><br><br>
+        <button type="submit">Post Announcement</button>
+    </form>
+    <p id="result"></p>
+    <h3>All Announcements</h3>
+    <ul id="adminAnnouncements"></ul>
+    <br><button onclick="logout()">Logout</button>
+    <script src="script.js"></script>
+</body>
+</html>
